@@ -19,6 +19,9 @@
 
 | 日期 | 主题 | 一句话 |
 |------|------|--------|
+| 2026-04-10 | [AI 协作者 vs 自主 Agent 哲学研究](reports/2026-04-10-AI协作者vs自主Agent哲学研究.md) | 开发者要的不是自主AI，而是让自己更强大的协作者 |
+| 2026-04-10 | [Frontend-VisualQA 深度研究](reports/2026-04-10-Frontend-VisualQA深度研究.md) | 给AI Agent装上"眼睛"，用强化学习验证UI视觉正确性 |
+| 2026-04-10 | [Dinobase AI 数据库深度研究](reports/2026-04-10-Dinobase-AI数据库深度研究.md) | Agent专用数据库，准确率+56pp，成本降16倍 |
 | 2026-04-10 | [CSS Studio 深度研究](reports/2026-04-10-CSS-Studio深度研究.md) | 手绘设计+AI生成代码，HN最热AI项目，但落地页被吐槽 |
 | 2026-04-08 | [AI 编程方法论全景](reports/2026-04-08-AI编程方法论全景研究.md) | Harness Engineering 理念与实践 |
 | 2026-04-08 | [Karpathy AutoResearch](reports/2026-04-08-Karpathy-AutoResearch深度研究.md) | 自动化研究工作流探索 |
