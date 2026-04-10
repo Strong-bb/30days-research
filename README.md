@@ -4,15 +4,29 @@
 
 用 `last30days` 技能 + 多源交叉验证，产出中文深度研究报告。覆盖 Hacker News、Reddit、GitHub、X/Twitter、YouTube 等平台真实讨论，拒绝水文，只要干货。
 
+## 目录结构
+
+```
+30days/
+├── reports/          # 研究报告（按日期命名）
+├── docs/            # 文档和指南
+├── specs/           # 规格说明
+├── CLAUDE.md        # Claude Code 项目配置
+└── README.md        # 本文件
+```
+
 ## 研究报告
 
 | 日期 | 主题 | 一句话 |
 |------|------|--------|
-| 2026-04-06 | [Karpathy LLM 知识库理念](2026-04-06-Karpathy-LLM知识库理念研究.md) | 不要把 LLM 当搜索引擎，让它帮你维护 Markdown 知识库 |
-| 2026-04-06 | [OpenClaw 进展与社区](2026-04-06-OpenClaw进展与社区研究.md) | 60天超越React星标，Anthropic封杀，CVE漏洞，生态爆发 |
-| 2026-04-06 | [Codex vs Claude Code](2026-04-06-Codex-vs-Claude-Code对比研究.md) | Claude Code技术更强，Codex成本更低，聪明人两个都用 |
-| 2026-04-06 | [Claude Code 技能插件推荐](2026-04-06-Claude-Code技能插件推荐.md) | 前后端分离+运维部署+持续优化全场景技能指南 |
-| 2026-04-07 | [近期热门 GitHub 项目精选](2026-04-07-近期热门GitHub项目精选.md) | 15个真有用的项目 + 避坑清单 |
+| 2026-04-10 | [CSS Studio 深度研究](reports/2026-04-10-CSS-Studio深度研究.md) | 手绘设计+AI生成代码，HN最热AI项目，但落地页被吐槽 |
+| 2026-04-08 | [AI 编程方法论全景](reports/2026-04-08-AI编程方法论全景研究.md) | Harness Engineering 理念与实践 |
+| 2026-04-08 | [Karpathy AutoResearch](reports/2026-04-08-Karpathy-AutoResearch深度研究.md) | 自动化研究工作流探索 |
+| 2026-04-07 | [近期热门 GitHub 项目精选](reports/2026-04-07-近期热门GitHub项目精选.md) | 15个真有用的项目 + 避坑清单 |
+| 2026-04-06 | [Claude Code 技能插件推荐](reports/2026-04-06-Claude-Code技能插件推荐.md) | 前后端分离+运维部署+持续优化全场景技能指南 |
+| 2026-04-06 | [Codex vs Claude Code](reports/2026-04-06-Codex-vs-Claude-Code对比研究.md) | Claude Code技术更强，Codex成本更低，聪明人两个都用 |
+| 2026-04-06 | [OpenClaw 进展与社区](reports/2026-04-06-OpenClaw进展与社区研究.md) | 60天超越React星标，Anthropic封杀，CVE漏洞，生态爆发 |
+| 2026-04-06 | [Karpathy LLM 知识库理念](reports/2026-04-06-Karpathy-LLM知识库理念研究.md) | 不要把 LLM 当搜索引擎，让它帮你维护 Markdown 知识库 |
 
 ## 快速开始
 

@@ -1,0 +1,19 @@
+# Codex 项目配置
+
+# 模型设置
+model = "o4-mini"
+
+# 审批策略
+approval_policy = "untrusted"
+
+# 沙箱模式
+sandbox_mode = "workspace-write"
+
+# 项目根检测标记
+project_root_markers = [".git"]
+
+# 项目指令文件
+model_instructions_file = "AGENTS.md"
+
+# 项目文档最大字节数（32 KiB）
+project_doc_max_bytes = 32768

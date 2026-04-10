@@ -1,6 +1,4 @@
-# CLAUDE.md
-
-本文件为 Claude Code (claude.ai/code) 在此仓库中工作时提供指导。
+# AGENTS.md
 
 ## 项目概述
 
@@ -24,7 +22,7 @@
 - 使用 `/last30days` 技能进行多平台深度研究
 - 可用 Hacker News API (`hn.algolia.com`) 作为免费数据源补充
 - 网页内容可通过 `curl` 直接抓取补充细节
-- 每次研究完毕 都要落文档
+- 每次研究完毕都要落文档
 
 ## AI 协作规则
 
@@ -32,4 +30,4 @@
 - 每次只做一件事，改完 commit
 - 参考 guardrails.md 中的踩坑记录，不重犯同样的错
 - 长任务（>30 分钟）维护 progress.md 追踪进度
-- 上下文腐烂信号（重复建议、变量追踪丢失）时果断 /clear
+- 上下文腐烂信号（重复建议、变量追踪丢失）时果断重开 session
